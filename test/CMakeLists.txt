@@ -9,7 +9,7 @@ endif()
 
 ExternalProject_Add(
 	googletest_project
-	SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/gtest-1.8.0"
+	SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/gtest-master"
 	INSTALL_DIR "${CMAKE_CURRENT_BINARY_DIR}/prefix"
 	CMAKE_ARGS
 		-DCMAKE_INSTALL_PREFIX:PATH=<INSTALL_DIR>
